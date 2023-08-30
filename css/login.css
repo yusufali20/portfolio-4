@@ -1,0 +1,151 @@
+
+body{
+    background-image: url(/images/login-bg2.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+    font-weight: 400;
+    color: #fff;
+}
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#login .main{
+    width: 250px;
+}
+
+#login .text{
+    text-align: center;
+}
+
+#login .text h3{
+    color: #fde17a;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+#login .text h6{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+#login .text img{
+    border-width: 2px;
+    border-color: #0d6efd !important;
+    border: 1.5px solid #dee2e6;
+    width: 60px;
+    height: 50px;
+}
+
+#login .form_body .form_label{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#login .form_body .form_label label{
+    margin-bottom: 0.5rem;
+}
+
+#login .form_body .form_label select{
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+#login .form_body .form_label input{
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+#login .form_body .form_label select{
+    width: 100%;
+}
+#login .form_body .form_label .check_box{
+    width: 2em !important;
+    margin-top: 0.25rem;
+    /* margin-left: -2.5em; */
+    transition: background-position .15s ease-in-out;
+    border: 1px solid rgba(0,0,0,.25);
+    height: 1em;
+    background-color: #fff;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+}
+
+#login .form_body .form_label button{
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #fff;
+    border: 1px solid #1861ac;
+    background-color: #1b6ec2;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#login .form_body .form_label button:hover{
+    background-color: #0b5ed7;
+    border: 1px solid #0a58ca;
+    cursor: pointer;
+}
+
+#login .form_body .form_label button i{
+    margin-right: 5px;
+}
+
+#login .form_body .form_label a{
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #fff;
+    border: 1px solid #198754;
+    background-color: #198754;
+    text-align: center;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#login .form_body .form_label a:hover{
+    color: #fff;
+    background-color: #157347;
+    border: 1px solid #157347;
+    cursor: pointer;
+}
+
+#login .form_body .form_label a i{
+    margin-right: 5px;
+}
+
+
+
+

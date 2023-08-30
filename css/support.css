@@ -1,0 +1,41 @@
+/* ............support css start.......... */
+hr{
+    margin: 1rem 0;
+    background-color: currentColor;
+    opacity: 0.25;
+    border: 0;
+    color: inherit;
+    height: 1px;
+}
+#support{
+    padding-top: 170px;
+}
+#support .heading{
+    margin-bottom: 20px;
+}
+#support .heading h2{
+    font-size: 1.65rem;
+}
+#support .text_img .img{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+}
+#support .text_img .img img{
+    width: 95%;
+}
+#support .text_img .text{
+    width: 67%;
+}
+#support p{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#support .new{
+    margin-bottom: 20px;
+}
+/* ............support css end.......... */

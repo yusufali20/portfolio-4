@@ -1,0 +1,39 @@
+.search_box{
+    text-align: right;
+}
+.search_box input{
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    width: 350px !important;
+    padding: 0 0 0 3px;
+}
+table{
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+}
+table th{
+    padding: 0.5rem 0.5rem;
+    border-bottom-width: 1px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+}
+table tr:not(thead tr) th{
+    color: #212529;
+    font-weight: 400;
+}
+tr:nth-child(odd){
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #dee2e6;
+}
+tr:nth-child(even){
+    border-bottom: 1px solid #dee2e6;
+    
+}

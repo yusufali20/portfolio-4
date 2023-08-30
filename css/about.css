@@ -1,0 +1,209 @@
+/* ............about-1 css start.......... */
+#about_1{
+    padding-top: 170px;
+}
+#about_1 .heading{
+    margin-bottom: 20px;
+}
+#about_1 .heading h2{
+    font-size: 30px;
+}
+hr{
+    margin: 1rem 0;
+    background-color: currentColor;
+    opacity: 0.25;
+    border: 0;
+    color: inherit;
+    height: 1px;
+}
+#about_1 .heading p{
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: left;
+}
+#about_1 .text_img h5{
+    font-size: 1.4rem;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-left: 10px;
+}
+#about_1 .text_img {
+    padding-left: 7px;
+}
+#about_1 .text_img .text{
+    width: 65%;
+}
+#about_1 .text_img li{
+    position: relative;
+    padding-left: 36px;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    font-size: 1rem;
+}
+#about_1 .text_img li:not(:first-child){
+    margin-top: 10px !important;
+}
+#about_1 i{
+    font-size: 15px;
+    color: #ed502e;
+    line-height: 1;
+}
+#about_1 .text_img i{
+    position: absolute;
+    left: 8px;
+    top: 4px;
+}
+#about_1 .text_img .img{
+    width: 32%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#about_1 .text_img .img img{
+    height: 450px;
+    width: 80%;
+    border-radius: 5%;
+    margin-bottom: 15px;
+    
+}
+
+
+#about_1 .wh_questions h6{
+    color: #dc3545;
+    margin-bottom: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#about_1 .wh_questions table{
+    width: 100%;
+    text-align: left;
+}
+#about_1 .wh_questions table th{
+    padding-bottom: 1rem !important;
+}
+#about_1 .wh_questions table th span{
+    padding-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* ............about-1 css end.......... */
+
+
+/* ............about-2 css start.......... */
+#about_2{
+    padding-top: 170px;
+}
+#about_2 .heading{
+    margin-bottom: 20px;
+}
+#about_2 .heading h2{
+    font-size: 30px;
+}
+#about_2 .text_img .text{
+    width: 68%;
+}
+#about_2 p{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#about_2 .text_img .img{
+    width: 32%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#about_2 .text_img .img img{
+    height: 100%;
+    width: 80%;
+    border-radius: 5%; 
+}
+/* ............about-1 css end.......... */
+
+
+/* ............about-3 css start.......... */
+#about_3{
+    padding-top: 170px;
+}
+#about_3 .heading{
+    margin-bottom: 20px;
+}
+#about_3 .heading h2{
+    font-size: 30px;
+}
+#about_3 .text_img .img{
+    width: 25%;
+}
+#about_3 .text_img .img img{
+    height: 250px;
+    width: 100%;
+}
+#about_3 .text_img .text{
+    width: 73%;
+}
+#about_3 p{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#about_3 .new{
+    margin-top: 10px;
+}
+/* ............about-3 css end.......... */
+
+/* ............about-4 css start.......... */
+#about_4{
+    padding-top: 170px;
+}
+#about_4 .heading{
+    margin-bottom: 20px;
+}
+#about_4 .heading h2{
+    font-size: 30px;
+}
+#about_4 .text_img .img{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+#about_4 .text_img .img img{
+    width: 80%;
+}
+#about_4 .text_img .text{
+    width: 73%;
+}
+#about_4 p{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#about_4 .new{
+    margin-top: 10px;
+}
+/* ............about-4 css end.......... */
+
+
+
+
