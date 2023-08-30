@@ -161,7 +161,7 @@ header{
 
 /* ============banner part start============ */
 #hero {
-    background: url(/images/hero-6.jpg) no-repeat center;
+    background: url(../images/hero-6.jpg) no-repeat center;
     background-size: cover;
     position: relative;
     width: 100%;
