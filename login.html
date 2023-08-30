@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yusuf Ali">
+
+    <title>Login - SCS PCM Web Application</title>
+    <link rel="icon" href="images/logo.jpg" type="images/gif/png/jpg">
+  
+    <!------------ css file ------------->
+    <link rel="stylesheet" href="css/tracking.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div id="login">
+        <div class="main">
+            <div class="text">
+                <h3>Welcome Back</h3>
+                <h6>Sign in to continue.</h6>
+                <img src="images/scsLogo.jpg" alt="scsLogo">
+            </div>
+            <div class="form_body">
+                <form action="/Security" method="post">
+                    <div class="form_label">
+                        <label for="usertype">User Type</label>
+                        <select name="usertype" id="usertype">
+                            <option value="SCS User">SCS User</option>
+                            <option value="Corporate Client">Corporate Client</option>
+                            <option value="Corporate Receiver">Corporate Receiver</option>
+                            <option value="Pre Booking Clientr">Pre Booking Client</option>
+                        </select>
+                        <!-- <i class="fa-solid fa-chevron-down" style="color: #212529;"></i> -->
+                    </div>
+                    <div class="form_label">
+                        <label for="username">User Name</label>
+                        <input type="text" id="username" placeholder="User Name"></input>
+                    </div>
+                    <div class="form_label">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Password"></input>
+                    </div>
+                    <div class="form_label" style="display: inline-block;">
+                        <input class="check_box" type="checkbox" id="rememberme" name="rememberme">Remember Me</input>
+                        <!-- <label for="rememberme">Remember Me</label> -->
+                    </div>
+                    <div class="form_label">
+                        <button type="submit">
+                            <i class="fa-solid fa-unlock-keyhole"></i>
+                            Sign in
+                        </button>
+                    </div>
+                    <div class="form_label">
+                        <a href="/tracking.html">
+                            <i class="fa-solid fa-reply"></i>
+                            Back to Home
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===========================
+            footer part start
+    ============================ -->
+    <footer id="footer">
+        <div class="main">
+            <span style="color: #4c5258;">
+                <i class="fa-regular fa-copyright"></i>
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                <a href="#">SCS PCM Web Application</a><span>. All rights Reserved.</span>
+            </span>
+            <span style="color: #4c5258;">
+                <i data-feather="heart"></i>
+                <span>Developed by</span>
+                <a target="_blank" href="https://www.facebook.com/yusuf201099" style="text-transform: uppercase;">yusuf
+                    ali</a>
+            </span>
+        </div>
+    </footer>
+    <!-- ===========================
+            footer part end
+    ============================ -->
+
+    <script src="js/tracking.js"></script>
+</body>
+
+</html>
